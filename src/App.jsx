@@ -1,10 +1,10 @@
 import { useState, useEffect, useRef } from 'react'
 import './App.css'
 import SingleCard from './components/SingleCard'
-import { cardImages } from './components/cardImages'
+
 import correctMatchSound from './assets/mixkit-dumbbell-pins-at-the-gym-2102.wav'
 import incorrectMatchSound from './assets/mixkit-negative-tone-interface-tap-2569.wav';
-
+card
 
 function App() {
   const [cards, setCards] = useState([])
