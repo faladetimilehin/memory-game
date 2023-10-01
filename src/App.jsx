@@ -5,6 +5,7 @@ import { cardImages } from './components/cardImages'
 import correctMatchSound from './assets/mixkit-dumbbell-pins-at-the-gym-2102.wav'
 import incorrectMatchSound from './assets/mixkit-negative-tone-interface-tap-2569.wav';
 
+
 function App() {
   const [cards, setCards] = useState([])
   const [turns, setTurns] = useState(0)
@@ -78,6 +79,8 @@ function App() {
   useEffect(() => {
     shuffleCards()
   }, [])
+
+
   return (
     <div className="App">
       <h1>Xpert Match</h1>
